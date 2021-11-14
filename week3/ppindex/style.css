@@ -1,0 +1,11 @@
+h1 {
+    color: blue;
+}
+
+table, th, td, tr { 
+    border: black 10px; padding: 10px;
+} /*can't understand why this isn't working*/
+
+#article {
+    font-size: 25px; text-decoration: none;
+}
