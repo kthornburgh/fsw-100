@@ -1,0 +1,18 @@
+h1 {
+    color:darkgreen
+}
+.headers {
+    font-family: Georgia; text-align: center;
+}
+#main {
+    line-height: 25px ;
+}
+body.a {
+    text-decoration: none;
+}
+#secondary {
+    text-transform: uppercase;
+}
+img {
+    float: left; padding-block: 15px;
+}
