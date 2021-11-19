@@ -1,0 +1,21 @@
+h1 {
+    color:darkgreen;
+}
+.headers {
+    font-family: Georgia; text-align: center; font-weight: bold;
+}
+#main {
+    line-height: 25px;
+}
+a {
+    text-decoration: none;
+}
+#secondary {
+    text-transform: uppercase; font-size: 43px;
+}
+img {
+    float: left; margin: 50px;
+}
+a:hover {
+    text-decoration: underline;
+}
