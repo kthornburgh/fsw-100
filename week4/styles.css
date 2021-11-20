@@ -1,0 +1,24 @@
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(255,0,0);
+    font-size: 30px;
+}
+.about {
+    position: relative;
+    left: 315px;
+}
+.menu {
+    position: relative;
+    left: 150px;
+}
+p {
+    padding: 20px;
+    /*border: 2px solid black;*/
+}
+img {
+    margin: 30px;
+    height: 250px;
+    float: left;
+}
