@@ -1,0 +1,81 @@
+* {
+    background-color: black;
+}
+
+#one {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+    transition: background-color 1s ease-out, width ease-in-out 400ms
+}
+#one:hover {
+    background-color: yellow;
+    width: 350px
+}
+
+#two {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+    transition: border-radius 1s ease-in, box-shadow 1s ease-in;
+}
+#two:hover {
+    border-radius: 20px;
+    box-shadow: 10px 10px white;
+}
+
+#three {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+    opacity: 50%;
+    transition: opacity 2s, background-color 1s ease-in, margin 1s;
+}
+#three:hover {
+    opacity: 100%;
+    background-color: white;
+    margin: 40px;
+}
+
+#four {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+    transition: border .5s ease-in, height 1s ease;
+}
+#four:hover {
+    border: 15px solid green;
+    height: 300px;
+}
+
+#five {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+    transition: position 1s ease-in, box-shadow 1s;
+}
+#five:hover {
+    position: relative; left: 100px;
+    box-shadow: inset 30px 30px 10px blue;
+}
+
+#six {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+    transition: background-color 2s, opacity 2s, height 2s, width 2s, border 2s, border-radius 2s;
+}
+#six:hover {
+    background-color: black;
+    opacity: 90%;
+    height: 450px;
+    width: 450px;
+    border: 15px solid white;
+    border-radius: 15px;
+}
